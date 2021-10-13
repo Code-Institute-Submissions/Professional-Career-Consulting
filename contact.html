@@ -11,7 +11,24 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
 <title>Completion & Validation</title>
+<style>
+  #contact-area{
+    text-align: center;
+    border-style: 1px solid black;
+  }
+  textarea{
+	border-style: outset;
+	border: 20px;
+	border-radius: 8px;
+	}
+	
+	body  {
+  background-image: url("assets/images/vintage.jpg");
+  background-color: #cccccc;
+ }
+ 
 
+</style>
 </head>
 
   <body>
@@ -21,14 +38,38 @@
     <nav id="navbar">
     <ul>
     <li><a href="index.html">Home</a></li>
-    <li><a href="validation.html">Validation</a><li>
+    <li><a href="validation.html">Validation</a></li>
     <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
          <h1>Contact Information</h1>
       </header>
-      <section>
+      <section  id="contact-area">
+        <form action="" method="get" type="text/plain">
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname"><br><br>
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname"><br><br>
+          <label for="email"><b>Email</b></label><br>
+          <input type="text" placeholder="Email Address" name="email" required>
+          <br><br>
+          <textarea name="comment" rows="10" cols="50">What's your impression about my site.</textarea><br><br>
+          <input  id="button" type="submit" value="Submit">
+        </form>
         
       </section>
+      <footer>
+        <ul>
+            <li>
+                <a href="https://outlook.live.com/" target="_blank" rel="noopener" aria-label="Email"><i class="fas fa-at"></i></a>
+            </li>
+            <li>
+                <a href="https://www.eirphonebook.ie/" target="_blank" rel="noopener" aria-label="Phone contact"><i class="fas fa-phone"></i></a>
+            </li>
+            <li>
+                <a href="https://www.google.ie/maps/" target="_blank" rel="noopener" aria-label="Phone no"><i class="fas fa-address-card"></i></a>
+            </li>      
+        </ul>
+    </footer>
 </body>
 </html>
