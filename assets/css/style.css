@@ -10,9 +10,10 @@ body{
     font-family: 'Raleway', sans-serif;
     color:black;
     overflow-x: hidden;
+    background-color: #FFFAF0;
     
 }
-h1, h2{
+h1, h2 {
     font-family: 'Montserrat', sans-serif;
     padding-top: 50px;
     padding-bottom: 25px;  
@@ -43,17 +44,7 @@ h1, h2{
 #navbar a{
     color: black;
 }
-#contact-area{
-    text-align: center;
-    border-style: 1px solid black;
-}
-#contact{
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-image: url("../images/vintage.jpg");
-    background-color: #cccccc;
-    
- }
+
 
 .top-image{
     position: relative;
@@ -63,10 +54,9 @@ h1, h2{
     margin-right: auto;
     margin-left: auto;
     width: 100%;
-    height: 500px;
+    height: 400px;
     overflow-x: hidden;
-   
-    
+      
 }
 
 .text-image{
@@ -107,6 +97,7 @@ h1, h2{
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
+    
 }
 #center-image h2{
     padding:20px
@@ -114,27 +105,36 @@ h1, h2{
 #center-image img {
     width: 400px;
     text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
-} 
-#center-image p {
-    text-align: center;
-    padding: 20px;
-
-}
+    padding-left: 20px;
+    padding-right: 20px;
+}  
  #right-side  {
      text-align: left;
      padding: 20px;
      margin-top: 30px;
- }  
+     width: 400px;
+ } 
+
  #left-side {
      text-align: left;
      padding: 20px;
      margin-top: 30px;
+     width: 400px;
+ }
+ 
+ #compass-meaning{
+     text-align: center;
+     line-height: 30px;
+     width: 600px;
+     border-style: solid;
+     border-width: 5px 1px;
+     margin-left: auto;
+     margin-right: auto;
+     
  }
 .section-one {
     display:flex;
-    padding: 20px 20px 20px 20px;
+    padding: 20px;
     
   }
   .section-one img{
@@ -143,24 +143,78 @@ h1, h2{
   }
   .section-one-text{
     display: block;
+    padding-left: 20px;
     
   }
+  .section-two {
+
+      margin-left: 100px;
+      margin-right: 100px;
+  }
+
+#contact-area{
+    padding-left: 40px;
+    text-align: left;
+    border: 2px solid black;
+    width: 400px;
+    background-color: #808080;
+    opacity: .7;
+    
+}
+#contact{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(../images/compass.jpg);
+    overflow-y: hidden;
+   
+}  
+#fname:hover{
+    border-color:black;
+    border-width: 2px;
+}
+#lname:hover{
+    border-color:black;
+    border-width: 2px; 
+}
+#email:hover{
+    border-color:black;
+    border-width: 2px;
+}
+#fname, #lname, #email {
+    width: 400px;
+    margin: 10px;
+    float: right;
+    border: 1px solid black;
+}
+textarea{
+    width: 400px;
+    margin: 10px;
+    float: right;
+    border: 1px solid black;
+}
+#button:hover{
+    color: red;
+}
+#button{
+    background-color: green;
+    margin: 10px;
+    font-size: 120%;
+}
+
  footer{
-     
      width:100%;
      text-align: center;
      padding: 20px 20px;
-     background:#A9A9A9;
-     margin-bottom: 0;
-     
+    
  }
  footer  li{
     display: inline;
     padding: 20px;
+   
  }
 footer i{
-        color: white;
         font-size: 180%;
-}
+        color: black;
+ }
      
  
